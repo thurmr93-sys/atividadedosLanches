@@ -6,7 +6,7 @@
 body {
 
     /** Muda a cor do fundo da página **/
-    background-color: #dc20ca;
+    background-color: #f4b24f;
 
     /** Muda a fonte do corpo da página e de todos os elementos
     em seu interior para Candara, Helvetica (se Candara não
@@ -95,8 +95,8 @@ that represents the logo of the site**/
 #logoImg {
 
     /** Configura o tamanho do logo **/
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
     /** O comando float faz com que elementos que normalmente
     quebrariam linhas "flutuem" a esquerda ou a direita, nos
