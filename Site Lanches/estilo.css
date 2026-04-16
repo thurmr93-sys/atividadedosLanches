@@ -87,11 +87,11 @@ e texto do logo do site) **/
     margins internas dos elementos. Esta técnica pode ser
     utilizada sempre que for necessário posicionar elementos no meio
     da página **/
-    margin-left: -212px;
+    margin-left: -362px;
 }
 
 /** Seleciona o elemento com o id "logoImg". No nosso caso, a imagem
-que representa o logo do site**/
+that represents the logo of the site**/
 #logoImg {
 
     /** Configura o tamanho do logo **/
