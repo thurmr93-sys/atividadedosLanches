@@ -281,7 +281,7 @@ principal do site **/
     width: 700px;
     
     /** Definimos a cor branca para a div principal **/
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
     /** Usando o tipo de posicionamento junto ao left e ao margin
     -left para centralizar a div principal horizontalmente na página **/
@@ -304,7 +304,7 @@ principal do site **/
 #promocaoH1 {
 
     /** Define a cor da fonte como branca **/
-    color: white;
+    color: #f4b24f;
 
     /** Define um tamanho de fonte de 64px; **/
     font-size: 64px;
@@ -324,14 +324,14 @@ principal do site **/
     /** Utilizado para definição de sombra com CSS. O primeiro parâmetro é
     o deslocamento horizontal da sombra, o segundo o vertical, o terceiro
     a quantidade de blur a aplicar na sombra e o quarto a cor da mesma **/
-    text-shadow: 2px 2px 4px #e50021;
+    text-shadow: 2px 2px 4px #f4b24f;
 }
 
 /** Seleciona o header de valor da promoção (id "promocaoValor") **/
 #promocaoValor {
 
     /** Define a cor da fonte como branca **/
-    color: white;
+    color: #f4b24f;
 
     /** Define um tamanho de fonte de 64px; **/
     font-size: 48px;
@@ -345,7 +345,7 @@ principal do site **/
     /** Utilizado para definição de sombra com CSS. O primeiro parâmetro é
     o deslocamento horizontal da sombra, o segundo o vertical, o terceiro
     a quantidade de blur a aplicar na sombra e o quarto a cor da mesma **/
-    text-shadow: 2px 2px 4px #e50021;
+    text-shadow: 2px 2px 4px #f4b24f;
 
     /** Posiciona o elemento no canto inferior direito **/
     left: 180px;
@@ -358,7 +358,7 @@ principal do site **/
 
 #tituloConteudo {
     /** Define a cor **/
-    color: #e50021;
+    color: #f4b24f;
         
     /** Alinha o texto do título no centro **/
     text-align: center;
@@ -389,7 +389,7 @@ principal do site **/
     width: 250px;
     
     /** Configura uma cor padrão para o texto das células **/
-    color: #e50021;
+    color: #f4b24f;
 
     /** Configura um tamanho de fonte padrão para o texto das células **/
     font-size: 20px;
@@ -414,7 +414,7 @@ principal do site **/
     /** Permite especifiar a borda do elemento. O primeiro parâmetro é a
     espessura da borda, o segundo é o tipo da borda (solida, pontilhada, etc)
     e o terceiro, sua cor **/
-    border: 2px solid #e50021;
+    border: 2px solid #f4b24f;
 }
 
 /** Seleciona elementos anotados com a classe "tituloProduto" **/
@@ -459,7 +459,7 @@ principal do site **/
     border-radius: 50%;
 
     /** Define uma borda para o elemento **/
-    border: 3px solid #e50021;
+    border: 3px solid #f4b24f;
 }
 
 /** Seleciona elementos com id "tel" **/
@@ -476,7 +476,7 @@ principal do site **/
     height: 75px;
 
     /** Define a cor de fundo do item **/
-    background-color: #e50021;
+    background-color: #f4b24f;
 
     /** Define a cor do texto para branco **/    
     color: white;
