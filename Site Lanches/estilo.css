@@ -294,7 +294,7 @@ principal do site **/
 #promotionBanner {
 
     /** Configura o tamanho de 200px para o banner promocional **/
-    height: 200px;
+    height: 265px;
 
     /** Configura uma imagem de fundo da promoção **/
     background-image: url('./images/2.jpeg');
