@@ -523,3 +523,10 @@ principal do site **/
     /** Remove o underline do link **/
     text-decoration: none;
 }
+
+  #infoContato {
+            margin-top: 30px;
+            background-color: #cdc8c1;
+            padding: 20px;
+
+        }
