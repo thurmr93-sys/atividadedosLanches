@@ -12,7 +12,7 @@ body {
     em seu interior para Candara, Helvetica (se Candara não
     estiver disponível) ou uma fonte padrão sem serifa (se nem
     Candara nem Helvetica estiverem disponíveis) **/
-    font-family: Candara, Helvetica, sans-serif;    
+    font-family: Candara, Helvetica, sans-serif;
 
     /** Capaz de especificar  margens em elementos da página
     (partes superior, inferior, esquerda e direita). Alguns
@@ -56,7 +56,7 @@ e texto do logo do site) **/
     width: 425px;
 
     /** Definimos uma altura capaz de armazenar a imagem e o texto
-    do logo do site. Neste caso, 100px **/    
+    do logo do site. Neste caso, 100px **/
     height: 100px;
 
     /** Desejamos posicionar esse elemento na página, utilizando
@@ -108,7 +108,7 @@ that represents the logo of the site**/
 }
 
 #tituloLogo {
-    
+
     /** O comando float faz com que elementos que normalmente
     quebrariam linhas "flutuem" a esquerda ou a direita, nos
     cantos do elemento pai onde se encontram. É possível flutuar
@@ -157,7 +157,7 @@ that represents the logo of the site**/
 
 /** Seleciona a lista ordenada que compõe o menu **/
 .listaMenu {
-    
+
     /** Definimos uma largura capaz de armazenar os itens de menu.
     Neste caso, 350px **/
     width: 350px;
@@ -279,7 +279,7 @@ principal do site **/
     /** Definindo um tamanho arbitrário para a div principal.
     Neste caso, 700px. **/
     width: 700px;
-    
+
     /** Definimos a cor branca para a div principal **/
     background-color: rgb(255, 255, 255);
 
@@ -308,10 +308,10 @@ principal do site **/
 
     /** Define um tamanho de fonte de 64px; **/
     font-size: 64px;
-    
+
     /** Remove a margem padrão dos elementos H **/
     margin: 0;
-    
+
     /** Adiciona uma margem na esquerda do elemento, para "desgrudá-lo"
     da borda lateral. É possível sobrescrever elementos de margem
     definidos anteriormente combinando margin e margin-left, como aqui **/
@@ -359,10 +359,10 @@ principal do site **/
 #tituloConteudo {
     /** Define a cor **/
     color: #f4b24f;
-        
+
     /** Alinha o texto do título no centro **/
     text-align: center;
-    
+
     /** Reduz a margem inferior padrão do H **/
     margin-bottom: 10px;
 }
@@ -371,7 +371,7 @@ principal do site **/
 "areaProdutos" **/
 #areaProdutos table {
     /** Propriedade utilizada em tabelas para dar mais espaço entre cada
-    célula **/    
+    célula **/
     border-spacing: 25px;
 
     /** Mantém os elementos de células com margens entre elas **/
@@ -383,11 +383,11 @@ principal do site **/
 
 /** Seleciona os elementos de td dentro da div com id
 "areaProdutos" **/
-#areaProdutos td {    
+#areaProdutos td {
 
     /** Configura uma largura padrão para cada célula **/
     width: 250px;
-    
+
     /** Configura uma cor padrão para o texto das células **/
     color: #f4b24f;
 
@@ -410,7 +410,7 @@ principal do site **/
     do elemento serão. 50% faz com que elementos que tem tamanho de altura
     e largura iguais se tornem circulos **/
     border-radius: 50%;
-    
+
     /** Permite especifiar a borda do elemento. O primeiro parâmetro é a
     espessura da borda, o segundo é o tipo da borda (solida, pontilhada, etc)
     e o terceiro, sua cor **/
@@ -419,10 +419,10 @@ principal do site **/
 
 /** Seleciona elementos anotados com a classe "tituloProduto" **/
 .tituloProduto {
-    
+
     /** Faz com que a fonte do elemento fique em negrito **/
     font-weight: bold;
-    
+
     /** Remove a margem padrão dos elementos P **/
     margin: 0;
 }
@@ -478,7 +478,7 @@ principal do site **/
     /** Define a cor de fundo do item **/
     background-color: #da1212;
 
-    /** Define a cor do texto para branco **/    
+    /** Define a cor do texto para branco **/
     color: white;
 
     /** Afasta o elemento do topo em 13px **/
@@ -523,47 +523,54 @@ principal do site **/
     /** Remove o underline do link **/
     text-decoration: none;
 }
-  #sobreConteudo {
-            padding: 30px;
-            line-height: 1.6;
-        }
 
-        #sobreConteudo h2 {
-            color: #e50021;
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
+#sobreConteudo {
+    padding: 30px;
+    line-height: 1.6;
+}
 
-        #sobreConteudo p {
-            color: #555;
-            text-align: justify;
-            margin-bottom: 15px;
-        }
+#sobreConteudo h2 {
+    color: #e50021;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
 
-        #valoresBox {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin: 30px 0;
-        }
+#sobreConteudo p {
+    color: #555;
+    text-align: justify;
+    margin-bottom: 15px;
+}
 
-        #valor {
-            flex: 1;
-            min-width: 200px;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-left: 4px solid #e50021;
-            text-align: center;
-        }
+#valoresBox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+}
 
-        #valor h3 {
-            color: #e50021;
-            margin-bottom: 10px;
-        }
+#valor {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #e50021;
+    text-align: center;
+}
 
-        #valor p {
-            color: #666;
-            text-align: center;
-        }
-    
+#valor h3 {
+    color: #e50021;
+    margin-bottom: 10px;
+}
+
+#valor p {
+    color: #666;
+    text-align: center;
+}
+
+#infoContato {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+
+}
