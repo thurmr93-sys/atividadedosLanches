@@ -535,10 +535,12 @@ principal do site **/
     margin-bottom: 15px;
 }
 
-#sobreConteudo p {
-    color: #555;
+#sobreConteudo{
+    color: #000000;
     text-align: justify;
     margin-bottom: 15px;
+    padding: 30px;
+    
 }
 
 #valoresBox {
@@ -563,9 +565,10 @@ principal do site **/
     margin-bottom: 10px;
 }
 
-#valor p {
+#valor{
     color: #666;
     text-align: center;
+    padding: 20px;
 }
 
 #infoContato {
